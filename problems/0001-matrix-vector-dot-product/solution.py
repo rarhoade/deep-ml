@@ -8,8 +8,6 @@ def matrix_dot_vector(a: list[list[int|float]], b: list[int|float]) -> list[int|
 			return -1
 	product = []
 	for column in a:
-		if len(column) != m:
-			return -1
 		i = 0
 		total = 0
 		while i < m:
